@@ -1,0 +1,10 @@
+
+<Files *.js>
+  Order Deny,Allow
+  Deny from all
+  Allow from env=DEBUG
+</Files>
+
+<Files *.min.js>
+  Allow from all
+</Files>
